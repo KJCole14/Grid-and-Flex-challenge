@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+/* Flex layout */
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 20px;
+}
+
+body{
+    background-color: rgb(25, 136, 136);
+}
+

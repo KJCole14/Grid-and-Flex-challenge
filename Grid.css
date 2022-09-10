@@ -1,0 +1,32 @@
+ body {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    min-height: 500px;
+}
+h1 {
+    text-align: center;
+    grid-column: 2/5;
+}
+
+.grid {
+grid-column-start: 3;
+grid-row: 2/4;
+}
+
+input {
+    border-radius: 20px;
+}
+
+body {
+    background-color: rgb(25, 136, 136);
+}
+
+@media (max-width: 383px) {
+    h1 {
+        grid-column: 1/6;
+    }
+    .grid {
+        grid-row: 3/6;
+    }
+}
